@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Khat</string>
+    <string name="add">Lihat</string>
+    <string name="add_hint">Ketik huruf atau kata</string>
+    <string name="naskhi">Naskhi</string>
+    <string name="tsulutsy">Tsuluts</string>
+    <string name="farisi">Farisi</string>
+    <string name="riq_ah">Riq\'ah</string>
+    <string name="diwani">Diwani</string>
+    <string name="kufy">Kufy</string>
+    <string name="diwani_jaly">Diwani Jaly</string>
+    <string name="penting">Penting…!\nTambahkan input bahasa Arab\ndi keyboard anda\ntekan tombol pengaturan dibawah</string>
+    <string name="this_program_is_free_software">\n\nDikembangkan oleh \nMuhammad Yusri Bau \nKetua Bidang Msabaqah \nLPTQ Kabupaten Maluku Tenggara</string>
+    <string name="share_app">Download koleksi aplikasi KUA Kec. Kecil terbaru</string>
+    <string name="play_store_more_apps">https://play.google.com/store/apps/dev?id=5837839636604805060</string>
+    <string name="aplikasi_lainnya">Aplikasi lainnya</string>
+    <string name="tentang_aplikasi">Tentang aplikasi</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-1795156159274748/7322852717</string>
+    <string name="titleSplash">LPTQ\nKab. Maluku Tenggara</string>
+    <string name="help">\n\nUntuk menambahkan bahasa Arab di keyboard:\n buka pengaturan - Bahasa dan input -\n keyboard pada layar\ntambak bahasa Arab (Saudi atau Mesir)</string>
+    <string name="select_chinese_dialect_title">In pilihan bahasa</string>
+
+
+</resources>

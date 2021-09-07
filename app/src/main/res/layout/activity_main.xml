@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainRl"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/liNearLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:padding="5dp"
+            android:text="@string/penting"
+            android:textAlignment="center"
+            android:textColor="@color/red" />
+
+        <EditText
+            android:id="@+id/add_hint"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:layout_gravity="center"
+            android:textDirection="rtl"
+            android:inputType="textMultiLine"
+            android:hint="@string/add_hint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/dropdownBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:drawablePadding="8dp"
+                android:text="Pilih Khat" />
+            <Button
+                android:id="@+id/resetBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Reset" />
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/downBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/ic_decrease_white"
+        android:layout_marginRight="5dp"
+        android:text="Perkecil" />
+
+    <Button
+        android:id="@+id/upBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:drawableRight="@drawable/ic_increase_white"
+        android:layout_marginTop="5sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Perbesar" />
+</LinearLayout>
+        <LinearLayout
+            android:id="@+id/hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/hasilTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:textSize="40sp"
+                    android:gravity="center" />
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:visibility="gone"
+        ads:adUnitId="ca-app-pub-1795156159274748/7461425843">
+    </com.google.android.gms.ads.AdView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addFab"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_add_24"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="fab" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/settingFab"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_settings_white"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        app:fabSize="mini"
+        android:layout_marginBottom="110dp"
+        android:contentDescription="fab" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/infoFab"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_help_black"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="160dp"
+        android:contentDescription="fab" />
+
+</RelativeLayout>

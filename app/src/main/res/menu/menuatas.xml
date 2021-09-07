@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rate"
+        android:checkable="false"
+        android:icon="@android:drawable/star_big_off"
+        android:title="@string/rate" />
+    <item
+        android:id="@+id/share"
+        android:icon="?attr/actionModeShareDrawable"
+        android:title="@string/share"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/links"
+        android:checkable="false"
+        android:icon="@drawable/ic_public_black_24dp"
+        android:title="@string/aplikasi_lainnya" />
+    <item
+        android:id="@+id/about"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/tentang_aplikasi" />
+</menu>

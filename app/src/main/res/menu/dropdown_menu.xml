@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:itemTextAppearance="@style/naskhi"
+        android:id="@+id/naskhiMenu"
+        android:title="@string/naskhi"/>
+    <item
+        app:itemTextAppearance="@style/tsuluts"
+        android:id="@+id/tsulusMenu"
+        android:title="@string/tsulutsy"/>
+    <item
+        app:itemTextAppearance="@style/farisi"
+        android:id="@+id/farisiMenu"
+        android:title="@string/farisi"/>
+    <item
+        app:itemTextAppearance="@style/riqah"
+        android:id="@+id/riqahMenu"
+        android:title="@string/riq_ah"/>
+
+    <item
+        app:itemTextAppearance="@style/diwani"
+        android:id="@+id/diwaniMenu"
+        android:title="@string/diwani"/>
+
+    <item
+        app:itemTextAppearance="@style/kufi"
+        android:id="@+id/kufiMenu"
+        android:title="@string/kufy"/>
+
+    <item
+        app:itemTextAppearance="@style/jaly"
+        android:id="@+id/diwanijaliMenu"
+        android:title="@string/diwani_jaly"/>
+</menu>
